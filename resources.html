@@ -7,81 +7,85 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar">
-            <nav class="nav-mobile">
-                <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="profile.html">Profile</a></li>
-             </ul>
+    <header>
+        <div class="navbar container nav-inner">
+            <a href="index.html" class="logo">InsightCircle</a> 
+        </div>
+        <nav class="navbar container nav-inner">
+                <nav class="nav-mobile">
+                        <input type="checkbox" id="menu-toggle">
+                        <label for="menu-toggle" class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a class="active" href="resources.html">Resources</a></li>
+                            <li><a href="community.html">Community</a></li>
+                            <li><a href="profile.html">Profile</a></li>
+                        </ul>
+                </nav>
             </nav>
-            
-            <a href="index.html" class="logo">InsightCircle</a>
-            <div class="login">
-                <a href="login.html">Login</a>
-            </div>
-            
-        </nav>
-    
+           
+    </header>
+   
     <section class="hero">
-        <h1>Resources</h1>
-        <p>Explore a variety of resources across different genres. Each resources comes woth its direct <strong>links</strong> and is careflly recommended by both wisdom seekers and InsightCircle community.Discover, learn, and share your own favorite resources.</p>
+        <div class="container hero-content">
+            <h1>Resources</h1>
+            <p>Explore a variety of resources across different genres. Each resources comes with its direct <strong>links</strong> and is carefuly recommended by both wisdom seekers and InsightCircle community.Discover, learn, and share your own favorite resources.</p>
+        </div>
+        
     </section>
 
-    <section class="card-container">
+    <section class="card-container container">
         <div class="card">
             <img src="css/images/Tech.jpg" alt="">
             <div><h3>Technology</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
             <img src="css/images/Sience.jpg" alt="">
             <div><h3>Science & Math</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
             <img src="css/images/History.jpg" alt="">
             <div><h3>History & Culture</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
              <img src="css/images/Spritual.jpg" alt="">
              <div><h3>Spiritual</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
              <img src="css/images/Arts.jpg" alt="">
              <div><h3>Arts and Creativity</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
              <img src="css/images/Personal development.jpg" alt="">
              <div><h3>Personal Development & Self Help</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
              <img src="css/images/Bunisness.jpg" alt="">
              <div><h3>Bunisess and Entrepreneurship</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
              <img src="css/images/Health and lifestyle.jpg" alt="">
              <div><h3>Health & Lifestyle</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
              <img src="css/images/Communication.jpg" alt="">
              <div><h3>Languages & Communication</h3></div>
             
         </div>
-        <div class="card">
+        <div class="card container">
              <img src="css/images/general knowledgee.jpg" alt="">
              <div> <h3>General knowledge</h3></div>
            
@@ -89,8 +93,15 @@
         
     </section>
 
-    <footer>
-        &copy; 2025 InsightCircle.
+   <footer>
+        <div class="container footer-inner">
+            <p>
+                InsightCircle-A hub where knowledge flows and insights are shared!
+
+            </p>
+             &copy; 2025 InsightCircle.
+        </div>
     </footer>
+
 </body>
 </html>

@@ -7,42 +7,47 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar">
-            <nav class="nav-mobile">
-                <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="profile.html">Profile</a></li>
-             </ul>
+     <header>
+        <div class="navbar container nav-inner">
+            <a href="index.html" class="logo">InsightCircle</a> 
+        </div>
+        <nav class="navbar container nav-inner">
+                <nav class="nav-mobile">
+                        <input type="checkbox" id="menu-toggle">
+                        <label for="menu-toggle" class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <ul class="nav-links">
+                            <li><a  href="index.html">Home</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="resources.html">Resources</a></li>
+                            <li><a class="active" href="community.html">Community</a></li>
+                            <li><a href="profile.html">Profile</a></li>
+                        </ul>
+                </nav>
             </nav>
+           
+    </header>
             
-            <a href="index.html" class="logo">InsightCircle</a>
-            <div class="login">
-                <a href="login.html">Login</a>
-            </div>
             
         </nav>
 
-    <section class="hero">
-        <h1>Community</h1>
-        <p>Join discussions, ask for recommendations, and share insights with other learners.</p>
+    <section class="hero community-section">
+        <div class="container hero-content"><h1>Community</h1>
+        <p>Join discussions, ask for recommendations, and share insights with other learners.</p></div>
+        
     </section>
 
     <section class="card-container">
         <div class="card community-card">
             <h3>Discussion Threads</h3>
-            <p>Join focued conversions on specific topics or resources.share youer insights, learn from others, and engage with InsightCircle commmuntiy</p>
+            <p>Join focused conversations about topics or resources. Share your insights, learn from others, and engage with InsightCircle commmuntiy</p>
         </div>
         <div class="card community-card">
             <h3>Recent Posts</h3>
-            <p>Checkout the latest insights and shared resources from InsightCircle. Stay updated.</p>
+            <p>Check out the latest insights and shared resources from InsightCircle. Stay updated and join the conversation.</p>
         </div>
     </section>
     
@@ -51,7 +56,14 @@
     
 
 <footer>
-        &copy; 2025 InsightCircle.
+        <div class="container footer-inner">
+            <p>
+                InsightCircle-A hub where knowledge flows and insights are shared!
+
+            </p>
+             &copy; 2025 InsightCircle.
+        </div>
     </footer>
+
 </body>
 </html>

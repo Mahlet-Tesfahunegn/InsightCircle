@@ -7,41 +7,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-        <nav class="navbar">
-            <nav class="nav-mobile">
-                <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="profile.html">Profile</a></li>
-             </ul>
+    <header>
+        <div class="navbar container nav-inner">
+            <a href="index.html" class="logo">InsightCircle</a> 
+        </div>
+        <nav class="navbar container nav-inner">
+                <nav class="nav-mobile">
+                        <input type="checkbox" id="menu-toggle">
+                        <label for="menu-toggle" class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <ul class="nav-links">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="resources.html">Resources</a></li>
+                            <li><a href="community.html">Community</a></li>
+                            <li><a href="profile.html">Profile</a></li>
+                        </ul>
+                </nav>
             </nav>
-            
-            <a href="index.html" class="logo">InsightCircle</a>
-            <div class="login">
-                <a href="login.html">Login</a>
-            </div>
-            
-        </nav>
+           
+    </header>  
     
 
     <section class="hero">
+        <div class="container hero-content">
             <h1>
                 Discover. Share. Grow!
             </h1>
             <p>
              InsightCircle is a community-driven platform where curious learners and knowledge-seekers can discover, share, and recommend trusted resources, tutorials, and websites. Our goal is to save time, inspire growth, and empower a culture of collaboration — because learning is better when shared.
             </p>
+        </div>
+            
     </section>
     <section class="highlights">
-        <div class="highlight-discover">
+        <div class="highlight-discover container">
                 <div>
                     <a href="login.html">
                         <img src="css/images/join and discover.jpg" alt="">
@@ -50,7 +53,7 @@
                 <h3>Join & Discover</h3>
                 <p>Join our community and find high-quality tutorials and materials <br>quickly recommended by the community and explorers.</p>
         </div>
-        <div class="highlight-share">
+        <div class="highlight-share container">
              <div>
                  <a href="resources.html"><img src="css/images/sharing.jpg" alt="resources.html"></a>
                 <div>
@@ -59,7 +62,7 @@
                 </div> 
             </div>
         </div>
-        <div class="highlight-connect">
+        <div class="highlight-connect container">
                     <a href="community.html"><img src="css/images/connect.jpg" alt=""></a>
                 <h3>Connect</h3>
                 <p>Engage with a community <br> of curious learners.</p>
@@ -70,8 +73,13 @@
 
     <!-- Footer -->
     <footer>
-        <p>InsightCircle-A hub where knowledge flows and insights are shared!</p>
-        &copy; 2025 InsightCircle.
+        <div class="container footer-inner">
+            <p>
+                InsightCircle-A hub where knowledge flows and insights are shared!
+
+            </p>
+             &copy; 2025 InsightCircle.
+        </div>
     </footer>
 
     
