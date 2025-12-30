@@ -7,30 +7,38 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar container nav-inner">
-            <a href="index.html" class="logo">InsightCircle</a> 
-        </div>
-        <nav class="navbar container nav-inner">
-                <nav class="nav-mobile">
-                        <input type="checkbox" id="menu-toggle">
-                        <label for="menu-toggle" class="hamburger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </label>
-                        <ul class="nav-links">
-                            <li><a class="active" href="index.html">Home</a></li>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="resources.html">Resources</a></li>
-                            <li><a href="community.html">Community</a></li>
-                            <li><a href="profile.html">Profile</a></li>
-                        </ul>
-                </nav>
-            </nav>
-           
-    </header>  
-    
+       <input type="radio" name = "radio" id = "open">
+       <input type="radio" name = "radio" id = "close" checked>
+       <nav>
+            <div class="left-side">
+                <a href="index.html" class="logo">InsightCircle</a> 
+            </div>
+            <div class="nav-links">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="login.html">Login</a>
+                    <a href="resources.html">Resources</a>
+                    <a href="community.html">Community</a>
+                    <a href="profile.html">Profile</a>
+            </div>
+
+            <label class = "hamburger" for="open">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <label class = "cross" for="close">
+                <span></span>
+                <span></span>
+            </label>
+        </nav>
+        <aside class="sidebar">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="login.html">Login</a>
+                    <a href="resources.html">Resources</a>
+                    <a href="community.html">Community</a>
+                    <a href="profile.html">Profile</a>
+        </aside>
+        
 
     <section class="hero">
         <div class="container hero-content">
