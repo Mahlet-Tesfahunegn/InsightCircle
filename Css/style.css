@@ -145,8 +145,8 @@ padding-top: -27;
   .nav-links{
     display: none;
   }
-  p{
-    font-size: 0.857rem;
+  p, h3{
+    font-size: 0.95rem;
   }
   label{
     display: block;
@@ -365,8 +365,8 @@ form {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    height:350px;
-    margin-bottom: 90px;
+    height:370px;
+    margin-bottom: 290px;
 
 }
 form h2{
